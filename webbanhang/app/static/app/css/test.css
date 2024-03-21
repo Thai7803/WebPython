@@ -1,0 +1,48 @@
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+    margin-bottom: 20px;
+}
+
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listProduct .item{
+    background-color: rgb(255, 253, 232);
+    padding: 20px;
+    margin-left: 90px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.listProduct .item a{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+    margin-left: 40px;
+}
+
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+    margin-left: 40px;
+}
+
+.listProduct .item button{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+}
